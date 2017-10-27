@@ -380,10 +380,10 @@
 								<Scripts>
 									<OnClick>
 										if ( self:GetChecked() ) then
-											PlaySound("igMainMenuOptionCheckBoxOff");
+											PlaySound("PlaySoundKitID and "igMainMenuOptionCheckBoxOff" or 857");
 											SCTD2:EnableNameplate();
 										else
-											PlaySound("igMainMenuOptionCheckBoxOn");
+											PlaySound("PlaySoundKitID and "igMainMenuOptionCheckBoxOn" or 856");
 											SCTD2:DisableNameplate();
 										end
 										SCT2:OptionsCheckButtonOnClick(self);
